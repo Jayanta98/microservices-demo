@@ -33,7 +33,9 @@ public class MyController {
 	}
 	@GetMapping("author")
 	public String author() {
-		return author+"he is the best author of India .This is from the github. Full and final this line only for github";
+
+		return author+"he is the best author of India .This is from the github now working in the same here";
+
 	}
 
 }
