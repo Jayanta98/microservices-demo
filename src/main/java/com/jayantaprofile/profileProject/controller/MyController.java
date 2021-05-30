@@ -33,7 +33,7 @@ public class MyController {
 	}
 	@GetMapping("author")
 	public String author() {
-		return author;
+		return author+"he is the best author of India";
 	}
 
 }
