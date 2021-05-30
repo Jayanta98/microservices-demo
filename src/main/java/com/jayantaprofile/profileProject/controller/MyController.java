@@ -37,5 +37,11 @@ public class MyController {
 		return author+"he is the best author of India .This is from the github now working in the same here";
 
 	}
+	@GetMapping("message")
+	public String masg() {
+
+		return "hi sir ji";
+
+	}
 
 }
