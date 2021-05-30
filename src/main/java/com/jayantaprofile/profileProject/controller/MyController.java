@@ -40,7 +40,7 @@ public class MyController {
 	@GetMapping("message")
 	public String masg() {
 
-		return "hi sir ji";
+		return "hi sir ji from git hub";
 
 	}
 
